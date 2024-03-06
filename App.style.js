@@ -10,6 +10,10 @@ export const styles = StyleSheet.create({
 		color: "white",
 		fontSize: 28,
 		marginVertical: 16,
+		fontFamily: Platform.select({
+			ios: "Inter-Black",
+			android: "Inter_900Black",
+		}),
 	},
 	subtitle: {
 		color: "white",
