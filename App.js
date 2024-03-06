@@ -23,7 +23,7 @@ function HomeScreen() {
 			}}
 		>
 			<Text style={styles.title}>Welcome</Text>
-			<Text style={styles.subtitle}>Yee! It's working</Text>
+			<Text style={styles.subtitle}>Yee! It's working....</Text>
 			<StatusBar style="auto" />
 		</View>
 	);
