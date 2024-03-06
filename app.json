@@ -1,7 +1,7 @@
 {
 	"expo": {
-		"name": "AwesomeProject",
-		"slug": "AwesomeProject",
+		"name": "Awesome Project",
+		"slug": "awesome-project",
 		"version": "1.0.0",
 		"orientation": "portrait",
 		"icon": "./assets/icon.png",
@@ -24,6 +24,12 @@
 		"web": {
 			"favicon": "./assets/favicon.png"
 		},
-		"plugins": [["expo-font"]]
+		"plugins": [["expo-font"]],
+		"extra": {
+			"eas": {
+				"projectId": "1cf07490-1965-408a-8944-73a1437fac7b"
+			}
+		},
+		"owner": "touhidzaman"
 	}
 }
